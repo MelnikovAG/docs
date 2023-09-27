@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
-        uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab
+        uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608
 
       - name: Sync repo to branch
         uses: repo-sync/github-sync@3832fe8e2be32372e1b3970bbae8e7079edeec88
