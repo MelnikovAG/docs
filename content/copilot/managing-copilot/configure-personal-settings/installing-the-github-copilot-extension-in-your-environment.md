@@ -100,20 +100,6 @@ To see instructions for other popular coding environments, use the tool switcher
 
 1. Install {% data variables.product.prodname_copilot %} using the built-in plugin manager:
 
-   * For **Vim on macOS or Linux**, run the following command in the terminal.
-
-     ```shell copy
-     git clone https://github.com/github/copilot.vim \
-     ~/.vim/pack/github/start/copilot.vim
-     ```
-
-   * For **Vim on Windows**, run the following command in Git Bash:
-
-     ```shell copy
-     git clone https://github.com/github/copilot.vim.git \
-     $HOME/vimfiles/pack/github/start/copilot.vim
-     ```
-
    * For **Neovim on macOS or Linux**, run the following command in the terminal.
 
      ```shell copy
@@ -126,6 +112,20 @@ To see instructions for other popular coding environments, use the tool switcher
      ```shell copy
      git clone https://github.com/github/copilot.vim.git \
      $HOME/AppData/Local/nvim/pack/github/start/copilot.vim
+     ```
+
+   * For **Vim on macOS or Linux**, run the following command in the terminal.
+
+     ```shell copy
+     git clone https://github.com/github/copilot.vim \
+     ~/.vim/pack/github/start/copilot.vim
+     ```
+
+   * For **Vim on Windows**, run the following command in Git Bash:
+
+     ```shell copy
+     git clone https://github.com/github/copilot.vim.git \
+     $HOME/vimfiles/pack/github/start/copilot.vim
      ```
 
 {% data reusables.copilot.config-enable-copilot-in-vimneovim %}
@@ -166,9 +166,7 @@ To see instructions for other popular coding environments, use the tool switcher
 
 ### Version compatibility
 
-{% data variables.product.prodname_copilot_chat_short %} releases in lockstep with {% data variables.product.prodname_vscode %}, due to its deep UI integration. As a result, every new version of {% data variables.product.prodname_copilot_chat_short %} is only compatible with the latest release of {% data variables.product.prodname_vscode %}. This means that if you are using an older version of {% data variables.product.prodname_vscode %}, you will not be able to use the latest {% data variables.product.prodname_copilot_chat_short %}.
-
-Only the latest {% data variables.product.prodname_copilot_chat_short %} versions will use the latest large language model provided by the {% data variables.product.prodname_copilot_short %} service, as even minor model upgrades require prompt changes and fixes in the extension. An older version of {% data variables.product.prodname_copilot_chat_short %} will still use the latest version of {% data variables.product.prodname_copilot_short %} code completions.
+{% data reusables.copilot.vscode-version-compatibility %}
 
 ## Installing the {% data variables.product.prodname_copilot %} extension in {% data variables.product.prodname_vscode %}
 

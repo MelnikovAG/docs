@@ -40,6 +40,26 @@
     "docs_reference_links": "N/A"
   },
   {
+    "action": "audit_log_streaming.check",
+    "description": "A manual check of the endpoint configured for audit log streaming was performed.",
+    "docs_reference_links": "N/A"
+  },
+  {
+    "action": "audit_log_streaming.create",
+    "description": "An endpoint was added for audit log streaming.",
+    "docs_reference_links": "N/A"
+  },
+  {
+    "action": "audit_log_streaming.destroy",
+    "description": "An audit log streaming endpoint was deleted.",
+    "docs_reference_links": "N/A"
+  },
+  {
+    "action": "audit_log_streaming.update",
+    "description": "An endpoint configuration was updated for audit log streaming, such as the stream was paused, enabled, or disabled.",
+    "docs_reference_links": "N/A"
+  },
+  {
     "action": "billing.change_billing_type",
     "description": "The way the account pays for GitHub was changed.",
     "docs_reference_links": "/billing/managing-your-github-billing-settings/adding-or-editing-a-payment-method"
@@ -718,6 +738,41 @@
     "action": "enterprise.self_hosted_runner_updated",
     "description": "The GitHub Actions runner application was updated. This event is not included in the JSON/CSV export.",
     "docs_reference_links": "/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners#about-self-hosted-runners"
+  },
+  {
+    "action": "enterprise_team.add_member",
+    "description": "A new member was added to the enterprise team or an IdP group linked to an enterprise team, or an IdP group was linked to an enterprise team.",
+    "docs_reference_links": "N/A"
+  },
+  {
+    "action": "enterprise_team.copilot_assignment",
+    "description": "A license for GitHub Copilot was assigned to an enterprise team.",
+    "docs_reference_links": "N/A"
+  },
+  {
+    "action": "enterprise_team.copilot_unassignment",
+    "description": "A license for GitHub Copilot was unassigned from an enterprise team.",
+    "docs_reference_links": "N/A"
+  },
+  {
+    "action": "enterprise_team.create",
+    "description": "A new enterprise team was created.",
+    "docs_reference_links": "N/A"
+  },
+  {
+    "action": "enterprise_team.destroy",
+    "description": "An enterprise team was deleted.",
+    "docs_reference_links": "N/A"
+  },
+  {
+    "action": "enterprise_team.remove_member",
+    "description": "A member was removed from the enterprise team or an IdP group linked to an enterprise team, or an IdP group was unlinked from an enterprise team.",
+    "docs_reference_links": "N/A"
+  },
+  {
+    "action": "enterprise_team.rename",
+    "description": "The name of an enterprise team was changed.",
+    "docs_reference_links": "N/A"
   },
   {
     "action": "environment.add_protection_rule",
@@ -3313,6 +3368,16 @@
     "action": "user.disable_sockpuppet_disallowed",
     "description": "N/A",
     "docs_reference_links": "N/A"
+  },
+  {
+    "action": "user_email.confirm_claim",
+    "description": "An enterprise managed user claimed an email address.",
+    "docs_reference_links": "N/A"
+  },
+  {
+    "action": "user_email.mark_as_unclaimed",
+    "description": "N/A",
+    "docs_reference_links": "An enterprise managed user unclaimed an email address."
   },
   {
     "action": "user.enable_collaborators_only",
